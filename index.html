@@ -153,13 +153,13 @@ The third drawback of nuclear energy is that the nuclear waste produce is hard t
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Absbstract");
     const AnalysisCount = displayWordCount("Introduction");
-   const AB = displayWordCount("What is nuclear energy");
-   const ABC = displayWordCount("What are the pros of nuclear energy");
-   const ABCD = displayWordCount("What are the drawbacks of nuclear energy");
-     const ABCDE = displayWordCount("Conclusion");
+   const WHAT IS  = displayWordCount("What is nuclear energy");
+   const WHAT ARE P = displayWordCount("What are the pros of nuclear energy");
+   const WHAT ARE C = displayWordCount("What are the drawbacks of nuclear energy");
+     const CONCO = displayWordCount("Conclusion");
    
    // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount + AB + ABC + ABCD + ABCDE;
+    const totalWordCount = IntroductionCount + AnalysisCount + WHAT IS + WHAT ARE P + WHAT ARE C + CONCO;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
